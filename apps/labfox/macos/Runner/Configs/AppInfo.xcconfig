@@ -11,4 +11,4 @@ PRODUCT_NAME = labfox
 PRODUCT_BUNDLE_IDENTIFIER = com.sloki9637.labfox
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2026 app.labfox. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2026 sloki9637. Licensed under Apache-2.0.
