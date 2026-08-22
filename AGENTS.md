@@ -50,9 +50,15 @@ LabFox follows an **open core** model.
 
 ```
 Source code            Apache-2.0 open source (GitHub: theorvane/labfox)
-Desktop (Win/macOS)    Free
-Mobile (Android/iOS)   Paid on the App Store / Play Store
+Windows                Direct download, free, full features
+macOS                  Mac App Store, free, full features
+Android / iOS          Free download, subscription for the paid features
 ```
+
+The app is a free download everywhere; a single auto-renewing subscription is
+sold through store in-app purchase. There is no LabFox account and no LabFox
+server — entitlement comes from the store the app was installed from.
+Details, including the free/paid boundary: `.agents/docs/monetization.md`
 
 The intended improvement cycle:
 
@@ -466,5 +472,6 @@ Agent skills and detailed documentation live under `.agents/`, not `.claude/`.
 ```
 .agents/
 ├── skills/    per-task procedures (SKILL.md)
-└── docs/      architecture / conventions / api-reference / references / roadmap / workflow
+└── docs/      architecture / conventions / api-reference / monetization /
+                references / roadmap / workflow
 ```
